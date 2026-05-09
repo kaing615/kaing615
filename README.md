@@ -26,7 +26,7 @@
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <p align="left">
 <a href="https://github.com/kaing615" target="blank">
@@ -48,7 +48,7 @@
 
 ---
 
-## ⚒️ Languages and Tools
+## Languages and Tools
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,jenkins,grafana,linux,bash,git,githubactions,nodejs,express,fastapi,mongodb,mysql,postgres,redis,react,nextjs,js,ts,html,css,python,pytorch,tensorflow,scikitlearn,postman&perline=14" />
