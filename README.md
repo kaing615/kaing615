@@ -1,6 +1,6 @@
-# Hi 👋, I'm Nguyễn Đình Tâm
+# Hi, I'm Nguyễn Đình Tâm
 
-### 🚀 DevOps Engineer Intern | Cloud & Automation Enthusiast
+### DevOps Engineer Intern | Cloud & Automation Enthusiast
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=kaing615&label=Profile%20Views&color=0e75b6&style=flat" alt="kaing615" />
@@ -14,15 +14,15 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-* 🔭 Currently working on **DevOps & Cloud Infrastructure**
-* 🌱 Learning **Docker, Kubernetes, ArgoCD, GitHub Actions & CI/CD**
-* 👯 Looking to collaborate on **Backend & DevOps Projects**
-* 🤝 Seeking guidance in **Cloud Architecture & Advanced DevOps**
-* 💬 Ask me about **Docker, Kubernetes, Linux, Cloud & Automation**
-* 📫 Reach me at: **[kainguyen615@gmail.com](mailto:kainguyen615@gmail.com)**
-* 📄 Resume: <a href="https://drive.google.com/file/d/1IdYpM2aDYfHiAtUJvQSGK_Z6H3fQV9U3/view?usp=sharing">View CV</a>
+* Currently working on **DevOps & Cloud Infrastructure**
+* Learning **Docker, Kubernetes, ArgoCD, GitHub Actions & CI/CD**
+* Looking to collaborate on **Backend & DevOps Projects**
+* Seeking guidance in **Cloud Architecture & Advanced DevOps**
+* Ask me about **Docker, Kubernetes, Linux, Cloud & Automation**
+* Reach me at: **[kainguyen615@gmail.com](mailto:kainguyen615@gmail.com)**
+* Resume: <a href="https://drive.google.com/file/d/1IdYpM2aDYfHiAtUJvQSGK_Z6H3fQV9U3/view?usp=sharing">View CV</a>
 
 ---
 
@@ -59,17 +59,6 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaing615&show_icons=true&theme=tokyonight" height="170" />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaing615&layout=compact&theme=tokyonight" height="170" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaing615&theme=tokyonight" />
 </p>
 
----
-
-## 🚀 Quote
-
-> “Automate everything that can be automated.”
