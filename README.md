@@ -6,12 +6,6 @@
   <img src="https://komarev.com/ghpvc/?username=kaing615&label=Profile%20Views&color=0e75b6&style=flat" alt="kaing615" />
 </p>
 
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=kaing615&theme=onedark&margin-w=15&margin-h=15" alt="kaing615" />
-  </a>
-</p>
-
 ---
 
 ## About Me
