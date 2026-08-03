@@ -1,7 +1,7 @@
 <img
-width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&color=0%3A020617%2C50%3A0f172a%2C100%3A0ea5e9&height=240&section=header&text=Tam%20Nguyen%20Dinh%20%7C%20Kai%20Nguyen&fontSize=40&fontColor=e2e8f0&fontAlignY=38&desc=Aspiring%20DevOps%20Engineer%20%7C%20Cloud%20%26%20Automation&descAlignY=59&descSize=18&animation=fadeIn"
-alt="Tam Nguyen Dinh | Kai Nguyen"
+  width="100%"
+  src="./profile-banner.svg"
+  alt="Tam Nguyen Dinh | Kai Nguyen"
 />
 
 <p align="center">
