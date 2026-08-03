@@ -299,19 +299,6 @@ ARGO CD ──► KUBERNETES
 
 <p align="center">
   <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=kaing615&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&rank_icon=github&include_all_commits=true"
-    alt="GitHub statistics"
-  />
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaing615&layout=compact&theme=github_dark&hide_border=true&border_radius=12&langs_count=8"
-    alt="Most used programming languages"
-  />
-</p>
-
-<p align="center">
-  <img
     width="70%"
     src="https://streak-stats.demolab.com?user=kaing615&theme=github-dark-blue&hide_border=true&border_radius=12"
     alt="GitHub contribution streak"
