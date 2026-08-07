@@ -1,7 +1,7 @@
 <img
-width="100%"
-src="./profile-banner.svg"
-alt="Tam Nguyen Dinh | Kai Nguyen"
+  width="100%"
+  src="./profile-banner.svg"
+  alt="Tam Nguyen Dinh | Kai Nguyen"
 />
 
 <p align="center">
@@ -55,11 +55,13 @@ alt="Tam Nguyen Dinh | Kai Nguyen"
   </a>
 </p>
 
-$ whoami
+---
 
-I'm Tam Nguyen Dinh, also known as Kai Nguyen, a Software Engineer focused on backend development, internal platforms and reliable software delivery.
+## `$ whoami`
 
-I enjoy building applications and backend services with Node.js and TypeScript, then taking them all the way to production through containers, CI/CD, cloud infrastructure and observability.
+I'm **Tam Nguyen Dinh**, also known as **Kai Nguyen**, a Software Engineer focused on backend development, internal platforms and reliable software delivery.
+
+I enjoy building applications and backend services with **Node.js** and **TypeScript**, then taking them all the way to production through containers, CI/CD, cloud infrastructure and observability.
 
 <table>
   <tr>
@@ -88,40 +90,40 @@ I enjoy building applications and backend services with Node.js and TypeScript, 
   </tr>
 </table>
 
-$ current_focus
+---
 
+## `$ current_focus`
+
+```text
 CODE ──► API ──► TEST ──► CONTAINERIZE ──► DEPLOY ──► OBSERVE
 Node/TS   REST      CI/CD         Docker        K8s/AWS      Grafana
+```
 
-Build useful software, automate delivery and keep production systems reliable.
+> Build useful software, automate delivery and keep production systems reliable.
 
-How I approach engineering
+### How I approach engineering
 
-Design maintainable backend services and APIs with clear responsibilities.
+- Design maintainable backend services and APIs with clear responsibilities.
+- Use TypeScript and structured application architecture to keep code predictable and easier to evolve.
+- Build reproducible environments with containers and automated delivery workflows.
+- Keep deployments small, traceable and easy to roll back.
+- Treat monitoring and observability as part of the software lifecycle.
+- Document systems and workflows so they remain maintainable by the whole team.
 
-Use TypeScript and structured application architecture to keep code predictable and easier to evolve.
+---
 
-Build reproducible environments with containers and automated delivery workflows.
+## `$ system --overview`
 
-Keep deployments small, traceable and easy to roll back.
+A software delivery architecture connecting backend services, data stores, CI/CD, containers, cloud infrastructure and observability.
 
-Treat monitoring and observability as part of the software lifecycle.
-
-Document systems and workflows so they remain maintainable by the whole team.
-
-$ system --overview
-
-<p align="left">
-  A software delivery architecture connecting backend services, data stores, CI/CD, containers, cloud infrastructure and observability.
-</p>
-
+```mermaid
 flowchart LR
     DEV["Developer"]
     GIT["GitHub Repository"]
     API["Node.js / TypeScript API"]
 
     subgraph CICD["CI/CD Pipeline"]
-        CI["GitHub Actions<br/>Jenkins"]
+        CI["GitHub Actions / Jenkins"]
         TEST["Build & Test"]
         SCAN["Security Scan"]
         REG["Container Registry"]
@@ -180,9 +182,11 @@ flowchart LR
     K8S --> LOGS
     METRICS --> DASHBOARD
     METRICS --> ALERTS
+```
 
-Deployment flow
+### Deployment flow
 
+```text
 DEVELOPER
     │
     ▼
@@ -201,28 +205,24 @@ ARGO CD ──► KUBERNETES
                ├──► DATABASE
                ├──► CACHE
                └──► MONITORING
+```
 
-Engineering principles
+### Engineering principles
 
-Maintainable backend services: Keep application logic structured, testable and easy to evolve.
+- **Maintainable backend services:** Keep application logic structured, testable and easy to evolve.
+- **Reliable data access:** Use relational databases and caching appropriately for application workloads.
+- **Automated delivery:** Build, test and package applications through CI pipelines.
+- **Containerized workloads:** Package services as reproducible Docker images.
+- **Declarative deployment:** Manage Kubernetes resources through version-controlled manifests.
+- **GitOps workflow:** Use Argo CD to synchronize declared and running states.
+- **Observable systems:** Collect metrics, logs, dashboards and operational alerts.
+- **Secure pipeline:** Add dependency, source-code and container-image scanning before deployment.
 
-Reliable data access: Use relational databases and caching appropriately for application workloads.
+---
 
-Automated delivery: Build, test and package applications through CI pipelines.
+## `$ toolkit --list`
 
-Containerized workloads: Package services as reproducible Docker images.
-
-Declarative deployment: Manage Kubernetes resources through version-controlled manifests.
-
-GitOps workflow: Use Argo CD to synchronize declared and running states.
-
-Observable systems: Collect metrics, logs, dashboards and operational alerts.
-
-Secure pipeline: Add dependency, source-code and container-image scanning before deployment.
-
-$ toolkit --list
-
-Backend & Software Engineering
+### Backend & Software Engineering
 
 <p align="left">
   <img
@@ -231,7 +231,7 @@ Backend & Software Engineering
   />
 </p>
 
-Databases & Caching
+### Databases & Caching
 
 <p align="left">
   <img
@@ -240,7 +240,7 @@ Databases & Caching
   />
 </p>
 
-Cloud, Infrastructure & DevOps
+### Cloud, Infrastructure & DevOps
 
 <p align="left">
   <img
@@ -268,7 +268,7 @@ Cloud, Infrastructure & DevOps
   />
 </p>
 
-Additional Development Tools
+### Additional Development Tools
 
 <p align="left">
   <img
@@ -277,53 +277,26 @@ Additional Development Tools
   />
 </p>
 
-$ capabilities --summary
+---
 
-Area
+## `$ capabilities --summary`
 
-Technologies and practices
+| Area | Technologies and practices |
+| --- | --- |
+| **Backend** | Node.js, TypeScript, Express and REST API development |
+| **Databases** | PostgreSQL, MySQL, MongoDB and Redis |
+| **Containers** | Docker, container images, volumes, networking and Docker Compose |
+| **CI/CD** | GitHub Actions, Jenkins, automated build, test and deployment workflows |
+| **Cloud** | AWS fundamentals, cloud infrastructure and deployment architecture |
+| **Orchestration** | Kubernetes fundamentals, workloads, services and configuration |
+| **GitOps** | Argo CD and declarative application delivery |
+| **Observability** | Grafana, monitoring concepts, metrics and service visibility |
+| **Automation** | Bash, Python scripting and repeatable operational workflows |
+| **Systems** | Linux administration, networking and troubleshooting |
 
-Backend
+---
 
-Node.js, TypeScript, Express and REST API development
-
-Databases
-
-PostgreSQL, MySQL, MongoDB and Redis
-
-Containers
-
-Docker, container images, volumes, networking and Docker Compose
-
-CI/CD
-
-GitHub Actions, Jenkins, automated build, test and deployment workflows
-
-Cloud
-
-AWS fundamentals, cloud infrastructure and deployment architecture
-
-Orchestration
-
-Kubernetes fundamentals, workloads, services and configuration
-
-GitOps
-
-Argo CD and declarative application delivery
-
-Observability
-
-Grafana, monitoring concepts, metrics and service visibility
-
-Automation
-
-Bash, Python scripting and repeatable operational workflows
-
-Systems
-
-Linux administration, networking and troubleshooting
-
-$ github --stats
+## `$ github --stats`
 
 <p align="center">
   <img
@@ -333,7 +306,9 @@ $ github --stats
   />
 </p>
 
-$ connect --with-me
+---
+
+## `$ connect --with-me`
 
 <p align="center">
   Interested in software engineering, backend systems or cloud-native platforms?
@@ -384,7 +359,7 @@ $ connect --with-me
 </p>
 
 <img
-width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0ea5e9%2C50%3A0f172a%2C100%3A020617&height=120&section=footer"
-alt="Footer"
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0ea5e9%2C50%3A0f172a%2C100%3A020617&height=120&section=footer"
+  alt="Footer"
 />
