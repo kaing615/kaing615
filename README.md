@@ -1,6 +1,6 @@
 <img
   width="100%"
-  src="./profile-banner.svg"
+  src="./banner.png"
   alt="Tam Nguyen Dinh | Kai Nguyen"
 />
 
