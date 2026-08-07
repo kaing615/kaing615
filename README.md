@@ -1,13 +1,13 @@
 <img
-  width="100%"
-  src="./profile-banner.svg"
-  alt="Tam Nguyen Dinh | Kai Nguyen"
+width="100%"
+src="./profile-banner.svg"
+alt="Tam Nguyen Dinh | Kai Nguyen"
 />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Aspiring+DevOps+Engineer;Cloud+%26+Automation+Enthusiast;Docker+%7C+Kubernetes+%7C+CI%2FCD;Building+Reliable+Cloud-Native+Systems"
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Software+Engineer;Node.js+%26+TypeScript+Backend;Cloud+%26+DevOps;Building+Reliable+Production+Systems"
       alt="Typing introduction"
     />
   </a>
@@ -55,75 +55,70 @@
   </a>
 </p>
 
----
+$ whoami
 
-## `$ whoami`
+I'm Tam Nguyen Dinh, also known as Kai Nguyen, a Software Engineer focused on backend development, internal platforms and reliable software delivery.
 
-I'm **Tam Nguyen Dinh**, also known as **Kai Nguyen**, a DevOps Engineer focused on building reliable, automated and observable software delivery workflows.
-
-I enjoy transforming application code into repeatable infrastructure through containers, CI/CD pipelines, cloud services and automation.
+I enjoy building applications and backend services with Node.js and TypeScript, then taking them all the way to production through containers, CI/CD, cloud infrastructure and observability.
 
 <table>
   <tr>
     <td><strong>Current role</strong></td>
-    <td>DevOps Engineer Intern</td>
+    <td>Software Engineer Intern</td>
   </tr>
   <tr>
     <td><strong>Core focus</strong></td>
-    <td>Cloud infrastructure, containers and CI/CD</td>
+    <td>Backend engineering, internal platforms and software delivery</td>
   </tr>
   <tr>
     <td><strong>Currently learning</strong></td>
-    <td>Kubernetes, Argo CD, GitHub Actions and advanced CI/CD</td>
+    <td>Node.js, TypeScript, backend architecture and cloud-native systems</td>
   </tr>
   <tr>
     <td><strong>Technical interests</strong></td>
-    <td>Automation, observability and cloud-native architecture</td>
+    <td>Backend systems, platform engineering and cloud-native architecture</td>
   </tr>
   <tr>
     <td><strong>Open to</strong></td>
-    <td>DevOps, backend and cloud-native projects</td>
+    <td>Software engineering, backend and platform engineering projects</td>
   </tr>
   <tr>
     <td><strong>Career goal</strong></td>
-    <td>Build secure, scalable and developer-friendly platforms</td>
+    <td>Build reliable, scalable and maintainable software systems</td>
   </tr>
 </table>
 
----
+$ current_focus
 
-## `$ current_focus`
+CODE ──► API ──► TEST ──► CONTAINERIZE ──► DEPLOY ──► OBSERVE
+Node/TS   REST      CI/CD         Docker        K8s/AWS      Grafana
 
-```text
-SOURCE ──► BUILD ──► TEST ──► CONTAINERIZE ──► DEPLOY ──► OBSERVE
-  Git        CI/CD             Docker          K8s          Grafana
-                                              Argo CD
-```
+Build useful software, automate delivery and keep production systems reliable.
 
-> Automate repetitive work, keep deployments predictable and make systems observable.
+How I approach engineering
 
-### How I approach engineering
+Design maintainable backend services and APIs with clear responsibilities.
 
-* Automate repeatable processes to reduce manual errors.
-* Build reproducible environments using containers and infrastructure configuration.
-* Keep deployments small, traceable and easy to roll back.
-* Add monitoring and observability instead of treating them as afterthoughts.
-* Document workflows so systems remain maintainable by the whole team.
+Use TypeScript and structured application architecture to keep code predictable and easier to evolve.
 
----
+Build reproducible environments with containers and automated delivery workflows.
 
----
+Keep deployments small, traceable and easy to roll back.
 
-## `$ infrastructure --overview`
+Treat monitoring and observability as part of the software lifecycle.
+
+Document systems and workflows so they remain maintainable by the whole team.
+
+$ system --overview
 
 <p align="left">
-  A cloud-native delivery architecture that connects source control, CI/CD, containers, Kubernetes, GitOps and observability.
+  A software delivery architecture connecting backend services, data stores, CI/CD, containers, cloud infrastructure and observability.
 </p>
 
-```mermaid
 flowchart LR
     DEV["Developer"]
     GIT["GitHub Repository"]
+    API["Node.js / TypeScript API"]
 
     subgraph CICD["CI/CD Pipeline"]
         CI["GitHub Actions<br/>Jenkins"]
@@ -158,7 +153,8 @@ flowchart LR
         ALERTS["Alerting"]
     end
 
-    DEV -->|"git push"| GIT
+    DEV -->|"develop"| API
+    API -->|"git push"| GIT
     GIT --> CI
     CI --> TEST
     TEST --> SCAN
@@ -184,11 +180,9 @@ flowchart LR
     K8S --> LOGS
     METRICS --> DASHBOARD
     METRICS --> ALERTS
-```
 
-### Deployment flow
+Deployment flow
 
-```text
 DEVELOPER
     │
     ▼
@@ -207,26 +201,50 @@ ARGO CD ──► KUBERNETES
                ├──► DATABASE
                ├──► CACHE
                └──► MONITORING
-```
 
-### Infrastructure principles
+Engineering principles
 
-* **Automated delivery:** Build, test and package applications through CI pipelines.
-* **Containerized workloads:** Package services as reproducible Docker images.
-* **Declarative deployment:** Manage Kubernetes resources through version-controlled manifests.
-* **GitOps workflow:** Use Argo CD to synchronize declared and running states.
-* **Scalable services:** Run multiple application replicas behind an ingress layer.
-* **Observable systems:** Collect metrics, logs, dashboards and operational alerts.
-* **Persistent data:** Separate stateless application workloads from databases and storage.
-* **Secure pipeline:** Add dependency, source-code and container-image scanning before deployment.
+Maintainable backend services: Keep application logic structured, testable and easy to evolve.
 
-## `$ toolkit --list`
+Reliable data access: Use relational databases and caching appropriately for application workloads.
 
-### Cloud, Infrastructure & DevOps
+Automated delivery: Build, test and package applications through CI pipelines.
+
+Containerized workloads: Package services as reproducible Docker images.
+
+Declarative deployment: Manage Kubernetes resources through version-controlled manifests.
+
+GitOps workflow: Use Argo CD to synchronize declared and running states.
+
+Observable systems: Collect metrics, logs, dashboards and operational alerts.
+
+Secure pipeline: Add dependency, source-code and container-image scanning before deployment.
+
+$ toolkit --list
+
+Backend & Software Engineering
 
 <p align="left">
   <img
-    src="https://skillicons.dev/icons?i=aws,docker,kubernetes,jenkins,githubactions,grafana,linux,bash,git&perline=9"
+    src="https://skillicons.dev/icons?i=ts,nodejs,express,js,postman,git&perline=6"
+    alt="Backend and software engineering technologies"
+  />
+</p>
+
+Databases & Caching
+
+<p align="left">
+  <img
+    src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&perline=4"
+    alt="Databases and caching technologies"
+  />
+</p>
+
+Cloud, Infrastructure & DevOps
+
+<p align="left">
+  <img
+    src="https://skillicons.dev/icons?i=aws,docker,kubernetes,jenkins,githubactions,grafana,linux,bash&perline=8"
     alt="Cloud infrastructure and DevOps technologies"
   />
 </p>
@@ -250,52 +268,62 @@ ARGO CD ──► KUBERNETES
   />
 </p>
 
-### Backend & Programming Languages
+Additional Development Tools
 
 <p align="left">
   <img
-    src="https://skillicons.dev/icons?i=nodejs,express,fastapi,python,js,ts&perline=6"
-    alt="Backend technologies and programming languages"
+    src="https://skillicons.dev/icons?i=react,nextjs,html,css,python,fastapi,pytorch,tensorflow,sklearn&perline=9"
+    alt="Additional development technologies"
   />
 </p>
 
-### Databases & Caching
+$ capabilities --summary
 
-<p align="left">
-  <img
-    src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&perline=4"
-    alt="Databases and caching technologies"
-  />
-</p>
+Area
 
-### Web, AI & Development Tools
+Technologies and practices
 
-<p align="left">
-  <img
-    src="https://skillicons.dev/icons?i=react,nextjs,html,css,pytorch,tensorflow,sklearn,postman&perline=8"
-    alt="Web, artificial intelligence and development tools"
-  />
-</p>
+Backend
 
----
+Node.js, TypeScript, Express and REST API development
 
-## `$ capabilities --summary`
+Databases
 
-| Area              | Technologies and practices                                              |
-| ----------------- | ----------------------------------------------------------------------- |
-| **Containers**    | Docker, container images, volumes, networking and Docker Compose        |
-| **Orchestration** | Kubernetes fundamentals, workloads, services and configuration          |
-| **CI/CD**         | GitHub Actions, Jenkins, automated build, test and deployment workflows |
-| **GitOps**        | Argo CD and declarative application delivery                            |
-| **Cloud**         | AWS fundamentals, cloud infrastructure and deployment architecture      |
-| **Observability** | Grafana, monitoring concepts, metrics and service visibility            |
-| **Automation**    | Bash, Python scripting and repeatable operational workflows             |
-| **Backend**       | Node.js, Express, FastAPI and REST API development                      |
-| **Systems**       | Linux administration, networking and troubleshooting                    |
+PostgreSQL, MySQL, MongoDB and Redis
 
----
+Containers
 
-## `$ github --stats`
+Docker, container images, volumes, networking and Docker Compose
+
+CI/CD
+
+GitHub Actions, Jenkins, automated build, test and deployment workflows
+
+Cloud
+
+AWS fundamentals, cloud infrastructure and deployment architecture
+
+Orchestration
+
+Kubernetes fundamentals, workloads, services and configuration
+
+GitOps
+
+Argo CD and declarative application delivery
+
+Observability
+
+Grafana, monitoring concepts, metrics and service visibility
+
+Automation
+
+Bash, Python scripting and repeatable operational workflows
+
+Systems
+
+Linux administration, networking and troubleshooting
+
+$ github --stats
 
 <p align="center">
   <img
@@ -305,12 +333,10 @@ ARGO CD ──► KUBERNETES
   />
 </p>
 
----
-
-## `$ connect --with-me`
+$ connect --with-me
 
 <p align="center">
-  Interested in DevOps, backend or cloud-native engineering?
+  Interested in software engineering, backend systems or cloud-native platforms?
   <br />
   Feel free to contact me about projects, internship opportunities or technical collaboration.
 </p>
@@ -354,7 +380,7 @@ ARGO CD ──► KUBERNETES
 <br />
 
 <p align="center">
-  <sub>Learning continuously. Automating thoughtfully. Building reliably.</sub>
+  <sub>Building software. Automating delivery. Running it reliably.</sub>
 </p>
 
 <img
