@@ -47,7 +47,7 @@
       alt="GitHub"
     />
   </a>
-  <a href="https://drive.google.com/file/d/1IdYpM2aDYfHiAtUJvQSGK_Z6H3fQV9U3/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1K2gHDkLLhzXnOxvQWOAMK7qeU2M-uvYo/view?usp=sharing">
     <img
       src="https://img.shields.io/badge/View_Resume-0ea5e9?style=for-the-badge&logo=googledrive&logoColor=white"
       alt="View resume"
